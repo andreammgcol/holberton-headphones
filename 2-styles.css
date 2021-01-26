@@ -605,7 +605,6 @@ main .hero-section .container {
 
 .results {
   width: 100%;
-  height: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -640,6 +639,7 @@ main .hero-section .container {
   height: 190px;
   background: transparent url("images/pentagone.png") no-repeat top center;
   background-size: 100%;
+  margin-bottom: 110px;
 }
 
 .column-dots h3 {

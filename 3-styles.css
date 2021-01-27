@@ -689,7 +689,7 @@ main .hero-section .container {
   margin-bottom: 50px;
 }
 
-input {
+.iform {
   font-size: 14px;
   height: 29px;
   padding: 10px 10px 10px 5px;
@@ -705,12 +705,12 @@ input {
   bottom: 50%;
 }
 
-input:focus {
+.iform:focus {
   outline: none;
   opacity: 1;
 }
 
-label {
+.contact-label {
   color: var(--color-black); 
   font-size: 14px;
   font-weight: bold;
@@ -724,7 +724,7 @@ label {
 }
 
 /* active state */
-input:focus ~ label, input:valid ~ label 		{
+.iform:focus ~ .contact-label, .iform:valid ~ .contact-label 		{
   top: -10px;
   font-size: 12px;
   color: var(--color-black);
@@ -741,7 +741,7 @@ input:focus ~ label, input:valid ~ label 		{
 }
 
 /* active state */
-input:focus ~ .highlight {
+.iform:focus ~ .highlight {
   -webkit-animation:inputHighlighter 0.3s ease;
   -moz-animation:inputHighlighter 0.3s ease;
   animation:inputHighlighter 0.3s ease;
